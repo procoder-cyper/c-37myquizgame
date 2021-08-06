@@ -8,27 +8,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src="p5.play.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
 
-    <!-- TODO: Add SDKs for Firebase products that you want to use
+<!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-analytics.js"></script>
 
-    <script>
-      //Your web app's Firebase configuration
-      var firebaseConfig = {
-    apiKey: "AIzaSyAJouKq4Z6Jhu7eMXdktPilDwnfYTtXsoY",
-    authDomain: "c-37-my-quiz-game.firebaseapp.com",
-    databaseURL: "https://c-37-my-quiz-game-default-rtdb.firebaseio.com/",
-    projectId: "c-37-my-quiz-game",
-    storageBucket: "c-37-my-quiz-game.appspot.com",
-    messagingSenderId: "733276337838",
-    appId: "1:733276337838:web:a26ec63725ffc567d4df3f"
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyACQm25Zqe5t-ZEexLeVnWz--xjyAeATFw",
+    authDomain: "c-37-8833f.firebaseapp.com",
+    databaseURL: "https://c-37-8833f-default-rtdb.firebaseio.com",
+    projectId: "c-37-8833f",
+    storageBucket: "c-37-8833f.appspot.com",
+    messagingSenderId: "995913538609",
+    appId: "1:995913538609:web:36e48af96d04542119c910",
+    measurementId: "G-XQJ2GYV7JL"
   };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-    </script>
-
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
     <script src="js/Quiz.js"></script>
     <script src="js/Question.js"></script>
     <script src="js/Contestant.js"></script>
